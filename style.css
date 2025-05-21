@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-color: black;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin: 100px;
+    color: white;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+div{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+div>img {
+    width: 150px;
+    border-radius: 10px;
+    border-color: black;
+    cursor: pointer;
+}
+
+div>p {
+    color: gray;
+    margin-top: 1px;
+    font-size: 18px;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    cursor: pointer;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin: 75px;
+    color: white;
+    background: black;
+    border-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+    cursor: pointer;
+}
+
+
+button:hover{
+    background: white;
+    color: black;
+}
+
+.perfil>p:hover{
+    color: white;
+}
+.perfil>img:hover{
+    border: 2px solid white;
+}
