@@ -3,7 +3,8 @@
 body {
     background-color: black;
 }
-header{
+
+header {
     display: flex;
     justify-content: center;
 }
@@ -16,7 +17,7 @@ h1 {
 }
 
 
-div{
+div {
     display: flex;
     justify-content: center;
     gap: 15px;
@@ -42,12 +43,13 @@ div>p {
     display: flex;
     flex-direction: column;
 }
-footer{
+
+footer {
     display: flex;
     justify-content: center;
 }
 
-button{
+button {
     margin: 75px;
     color: white;
     background: black;
@@ -59,14 +61,15 @@ button{
 }
 
 
-button:hover{
+button:hover {
     background: white;
     color: black;
 }
 
-.perfil>p:hover{
+.perfil>p:hover {
     color: white;
 }
-.perfil>img:hover{
+
+.perfil>img:hover {
     border: 2px solid white;
 }
