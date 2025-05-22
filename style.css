@@ -66,10 +66,10 @@ button:hover {
     color: black;
 }
 
-.perfil>p:hover {
+.perfil:hover p {
     color: white;
 }
 
-.perfil>img:hover {
-    border: 2px solid white;
-}
+.perfil:hover img{
+    outline: 2px solid white;
+}    
